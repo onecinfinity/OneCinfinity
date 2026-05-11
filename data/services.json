@@ -1,0 +1,256 @@
+{
+  "services": [
+    {
+      "id": "social-media-marketing",
+      "pageTitle": "Social Media Marketing",
+      "cardIcon": "image/Icon-7.png",
+      "cardDescription": "Grow visibility, engagement, and conversions with platform-first social campaigns.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Boost Your Brand with Strategic Social Media Marketing",
+      "introParagraph": "Maximize engagement, build loyal communities, and drive measurable conversions across Instagram, Facebook, LinkedIn, and TikTok with platform-specific campaigns built around your audience and business goals.",
+      "overview": {
+        "paragraph": "At OneCinfinity, we help brands grow through custom-tailored social media marketing strategies that connect with your audience. From content creation to campaign optimization, we make sure your presence on platforms like Instagram, Facebook, LinkedIn, and TikTok stands out. Whether you are launching a new brand or scaling an existing one, our experts turn social media into a powerful growth engine.",
+        "images": [
+          "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://media.istockphoto.com/id/2217315482/photo/smartphone-app-icons-interface.webp?a=1&b=1&s=612x612&w=0&k=20&c=9OyB-6qKk82m1kBW9K51e0FZadFo0YOPu-8l8TWaDgE="
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This service includes full-funnel strategy, creative production, campaign execution, and performance reporting so you can grow consistently while maintaining a strong, on-brand social presence.",
+        "checklist": [
+          "Platform Strategy & Planning",
+          "Creative Content Production",
+          "Paid Ads Management",
+          "Community Engagement",
+          "Performance Reporting & Analytics",
+          "Influencer Collaborations",
+          "Social Listening & Trend Monitoring"
+        ]
+      }
+    },
+    {
+      "id": "seo",
+      "pageTitle": "Search Engine Optimization",
+      "cardIcon": "image/Icon-11.png",
+      "cardDescription": "Improve search visibility, organic traffic, and qualified leads with technical and content-focused SEO.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1251&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Grow Organic Visibility with Search Engine Optimization",
+      "introParagraph": "Increase rankings, attract high-intent visitors, and build long-term search visibility with SEO strategies designed around your goals and market.",
+      "overview": {
+        "paragraph": "At OneCinfinity, we build SEO strategies that combine technical optimization, content alignment, and ongoing performance analysis. From keyword research and on-page improvements to site structure and local visibility, we help your brand earn sustainable organic growth.",
+        "images": [
+          "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1674027001834-719c347d1eca?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This SEO service covers the core actions needed to improve discoverability, strengthen relevance, and turn search traffic into measurable business results.",
+        "checklist": [
+          "Keyword Research & Search Intent Mapping",
+          "Technical SEO Audit",
+          "On-Page Optimization",
+          "Content Strategy & Optimization",
+          "Local SEO Setup",
+          "Internal Linking Improvements",
+          "Performance Tracking & Reporting"
+        ]
+      }
+    },
+    {
+      "id": "content-marketing",
+      "pageTitle": "Content Marketing",
+      "cardIcon": "image/digital-marketing-icons-F4LJ4W8.png",
+      "cardDescription": "Attract and convert your ideal audience with SEO-focused, value-driven content.",
+      "mainBannerImage": "http://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Build Trust and Authority with Content Marketing",
+      "introParagraph": "Create high-value content that attracts the right audience, builds credibility, and turns visitors into loyal customers across every stage of the funnel.",
+      "overview": {
+        "paragraph": "Our content marketing strategies combine audience research, SEO planning, and consistent storytelling to help your brand stay visible and relevant. From blogs and landing pages to campaign assets, we create content that performs.",
+        "images": [
+          "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "We align your content calendar with business goals so each asset supports growth, engagement, and measurable performance.",
+        "checklist": [
+          "Content Strategy & Planning",
+          "SEO-Focused Blog Writing",
+          "Landing Page Copywriting",
+          "Social Content Repurposing",
+          "Editorial Calendar Management",
+          "Content Performance Analytics",
+          "Continuous Content Optimization"
+        ]
+      }
+    },
+    {
+      "id": "ppc-advertising",
+      "pageTitle": "PPC Advertising",
+      "cardIcon": "image/Icon-8.png",
+      "cardDescription": "Capture high-intent traffic fast through optimized, ROI-focused paid campaigns.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1636647677481-f134fda3f408?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Scale Faster with Performance-Driven PPC Advertising",
+      "introParagraph": "Reach high-intent audiences with precision targeting and ad campaigns designed to generate quality leads, conversions, and profitable growth.",
+      "overview": {
+        "paragraph": "We manage end-to-end paid campaigns across Google, Meta, and other channels, combining smart audience segmentation with creative testing and budget optimization to maximize ROI.",
+        "images": [
+          "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1682310178386-1d20be620733?q=80&w=1212&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Every campaign is built around measurable outcomes, with transparent reporting and rapid optimization cycles.",
+        "checklist": [
+          "Campaign Setup & Structure",
+          "Keyword and Audience Research",
+          "Ad Copy and Creative Testing",
+          "Bid and Budget Optimization",
+          "Conversion Tracking Setup",
+          "Remarketing Campaigns",
+          "Monthly ROI Reporting"
+        ]
+      }
+    },
+    {
+      "id": "email-marketing",
+      "pageTitle": "Email Marketing",
+      "cardIcon": "image/Icon-5.png",
+      "cardDescription": "Nurture leads and increase repeat revenue with personalized email automation.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Nurture Leads and Drive Repeat Sales with Email Marketing",
+      "introParagraph": "Turn subscribers into customers with personalized email journeys that build relationships, increase retention, and improve lifetime value.",
+      "overview": {
+        "paragraph": "From list segmentation and automation flows to campaign copy and performance testing, we create email systems that consistently deliver value to your audience and results for your business.",
+        "images": [
+          "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Our email strategy balances smart automation with human messaging to keep your brand top-of-mind.",
+        "checklist": [
+          "Audience Segmentation",
+          "Automated Welcome Series",
+          "Lead Nurture Workflows",
+          "Promotional Campaign Creation",
+          "A/B Subject Line Testing",
+          "Deliverability Monitoring",
+          "Campaign Performance Reporting"
+        ]
+      }
+    },
+    {
+      "id": "branding-design",
+      "pageTitle": "Branding & Design",
+      "cardIcon": "image/Icon-6.png",
+      "cardDescription": "Build a memorable brand identity that stands out and stays consistent everywhere.",
+      "mainBannerImage": "https://media.istockphoto.com/id/1256957121/photo/sample-strips-color-swatch-and-mobile-application-design.webp?a=1&b=1&s=612x612&w=0&k=20&c=GrjeqBt6K6ecR0kGLRpNHSXruLCqltzQSTIVhJHym3E=",
+      "mainHeading": "Shape a Memorable Identity with Branding and Design",
+      "introParagraph": "Create a strong, consistent visual identity that communicates your value clearly and makes your brand instantly recognizable.",
+      "overview": {
+        "paragraph": "We combine brand strategy with modern design systems to produce logos, visual assets, and brand guidelines that help your business stand out across digital and offline channels.",
+        "images": [
+          "https://images.unsplash.com/photo-1716471330463-f475b00f0506?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Everything we design is rooted in positioning, audience insight, and practical scalability.",
+        "checklist": [
+          "Brand Discovery Workshop",
+          "Logo and Identity Design",
+          "Color and Typography System",
+          "Marketing Collateral Design",
+          "Social Media Creative Templates",
+          "Brand Style Guide",
+          "Ongoing Creative Support"
+        ]
+      }
+    },
+    {
+      "id": "web-development",
+      "pageTitle": "Web Development",
+      "cardIcon": "image/Icon-4.png",
+      "cardDescription": "Launch fast, responsive websites engineered to convert visitors into customers.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Launch High-Performance Websites Built for Growth",
+      "introParagraph": "Develop fast, responsive, and conversion-focused websites that deliver a seamless user experience and support your marketing goals.",
+      "overview": {
+        "paragraph": "We build business websites with clean architecture, mobile-first design, and SEO-ready structure so your brand can scale confidently while converting more visitors into customers.",
+        "images": [
+          "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1685086785077-ff65bf749544?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Our development process focuses on reliability, maintainability, and measurable business impact.",
+        "checklist": [
+          "UI Implementation",
+          "Responsive Development",
+          "On-Page SEO Foundation",
+          "Performance Optimization",
+          "CMS Integration",
+          "Form and Lead Capture Setup",
+          "Post-Launch Support"
+        ]
+      }
+    },
+    {
+      "id": "analytics-reporting",
+      "pageTitle": "Analytics & Reporting",
+      "cardIcon": "image/Icon-10.png",
+      "cardDescription": "Track performance clearly with dashboards, insights, and reporting built around business goals.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
+      "mainHeading": "Make Smarter Decisions with Analytics and Reporting",
+      "introParagraph": "Understand what is working, where to optimize, and how to grow with reporting systems that turn raw data into actionable insights.",
+      "overview": {
+        "paragraph": "We set up reporting frameworks that connect your marketing channels, website activity, and campaign performance into one clear view. With measurable dashboards and regular analysis, you can make informed decisions faster and keep growth on track.",
+        "images": [
+          "https://plus.unsplash.com/premium_photo-1661384118133-8f8b6eef9715?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This service gives you the visibility needed to evaluate performance, identify opportunities, and improve results with confidence.",
+        "checklist": [
+          "Dashboard Setup",
+          "Conversion Tracking Review",
+          "Channel Performance Reporting",
+          "Campaign Insights & Analysis",
+          "KPI Monitoring",
+          "Monthly Strategy Reviews",
+          "Optimization Recommendations"
+        ]
+      }
+    },
+    {
+      "id": "conversion-rate-optimization",
+      "pageTitle": "Conversion Optimization",
+      "cardIcon": "image/Icon-12.png",
+      "cardDescription": "Increase leads and sales by improving the performance of landing pages and key conversion paths.",
+      "mainBannerImage": "https://plus.unsplash.com/premium_photo-1661678060948-b8d1d293889a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Turn More Visitors into Customers with CRO",
+      "introParagraph": "Improve the percentage of visitors who take action with conversion-focused testing, design improvements, and user journey refinement.",
+      "overview": {
+        "paragraph": "Our CRO process evaluates how users move through your site, where they drop off, and what changes can improve conversion performance. From page structure and messaging to forms and calls to action, we optimize the pieces that directly impact growth.",
+        "images": [
+          "https://images.unsplash.com/photo-1674027001834-719c347d1eca?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1686061594225-3e92c0cd51b0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This service focuses on practical testing and continuous improvement so your existing traffic works harder for your business.",
+        "checklist": [
+          "Landing Page Review",
+          "User Journey Analysis",
+          "CTA Optimization",
+          "Form Simplification",
+          "A/B Testing Roadmap",
+          "Heatmap & Behavior Review",
+          "Conversion Performance Reporting"
+        ]
+      }
+    }
+  ]
+}
