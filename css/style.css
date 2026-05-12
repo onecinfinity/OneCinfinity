@@ -277,6 +277,16 @@ body{
     color: var(--primary);
 }
 
+img {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    image-rendering: -webkit-optimize-contrast;
+    will-change: auto;
+}
+
 body.lightmode .keep-dark {
     --primary: #D1D1D1;
     --secondary: #040404;
@@ -597,8 +607,9 @@ body.no-scroll{
 .newsletter-popup-backdrop{
     position: absolute;
     inset: 0;
-    background: rgba(4, 4, 4, 0.72);
-    backdrop-filter: blur(10px);
+    background: rgba(4, 4, 4, 0.82);
+    /* Removed backdrop-filter due to iOS compatibility issues */
+    -webkit-backdrop-filter: none;
 }
 
 .newsletter-popup-card{
@@ -1201,12 +1212,17 @@ body.lightmode .keep-dark .btn-accent{
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
+    -webkit-user-select: none;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 /* Ensure the video element doesn't introduce default controls layout shifts */
 .banner-bg-video {
     display: block;
     max-width: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 
@@ -2079,6 +2095,9 @@ body.lightmode .navbar-icon-wrapper{
     height: 550px;
     object-fit: cover;
     object-position: center;
+    -webkit-user-select: none;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .about-title{
@@ -3207,12 +3226,12 @@ body.lightmode .case-studies-content::before{
 .guide-banner{
     background-image: url('../image/guidebanner.jpg');
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    /* flex-direction: column; */
+    /* overflow: hidden; */
     border-radius: var(--global-border-radius);
     padding: 250px 20px 120px 20px;
     border: 1px solid var(--accent-color-3);
@@ -4016,6 +4035,11 @@ body.lightmode .newsletter-layout{
     max-height: 100%;
     object-fit: cover;
     object-position: center;
+    -webkit-touch-callout: none;
+    image-rendering: -webkit-optimize-contrast;
+    -webkit-user-select: none;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 /* ================== Global Page Loader ================== */
