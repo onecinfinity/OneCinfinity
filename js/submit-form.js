@@ -22,12 +22,17 @@ function initSubmitContact() {
             return;
         } else {
             $errorMessage.addClass('hidden');
-            $successMessage.removeClass('hidden');
-            $('#contactForm')[0].reset();
-
-            setTimeout(function () {
-                $successMessage.addClass('hidden');
-            }, 3000);
+            // Submit the form natively so Netlify can capture it
+            try {
+                event.currentTarget.submit();
+            } catch (e) {
+                // Fallback: show client-side success and reset
+                $successMessage.removeClass('hidden');
+                $('#contactForm')[0].reset();
+                setTimeout(function () {
+                    $successMessage.addClass('hidden');
+                }, 3000);
+            }
         }
     });
 }
