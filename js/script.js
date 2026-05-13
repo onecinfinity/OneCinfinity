@@ -189,6 +189,7 @@ Promise.all([
     fetch("header.html").then(res => res.text()),
     fetch("footer.html").then(res => res.text()),
     fetch("sidebar.html").then(res => res.text()),
+    fetch("search-form.html").then(res => res.text())
   ])
   .then(([headerHTML, footerHTML, sidebarHTML, searchHTML]) => {
     $("#header").html(headerHTML);
