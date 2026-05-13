@@ -3,7 +3,7 @@ backend:
   repo: onecinfinity/OneCinfinity
   branch: main
   base_url: https://decap-cms-oauth-dusky.vercel.app
-  auth_endpoint: auth
+  auth_endpoint: /auth
 
 media_folder: "image/uploads"
 public_folder: "/image/uploads"
