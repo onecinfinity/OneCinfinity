@@ -2,10 +2,8 @@ backend:
   name: github
   repo: onecinfinity/OneCinfinity
   branch: main
-  # Use your external OAuth proxy here, not Netlify Identity.
-  # Example: https://YOUR-OAUTH-PROXY-DOMAIN
   base_url: https://decap-cms-oauth-nu.vercel.app
-  auth_endpoint: /auth
+  auth_endpoint: auth
 
 media_folder: "image/uploads"
 public_folder: "/image/uploads"
