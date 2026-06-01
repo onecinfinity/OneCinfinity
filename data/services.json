@@ -1,36 +1,36 @@
 {
   "services": [
     {
-      "id": "social-media-marketing",
-      "pageTitle": "Social Media Marketing",
-      "cardIcon": "image/Icon-7.png",
-      "cardDescription": "Grow visibility, engagement, and conversions with platform-first social campaigns.",
-      "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "mainHeading": "Boost Your Brand with Strategic Social Media Marketing",
-      "introParagraph": "Maximize engagement, build loyal communities, and drive measurable conversions across Instagram, Facebook, LinkedIn, and TikTok with platform-specific campaigns built around your audience and business goals.",
+      "id": "content-creation",
+      "pageTitle": "Content Creation",
+      "cardIcon": "image/digital-marketing-icons-F4LJ4W8.png",
+      "cardDescription": "Create scroll-stopping blogs, visuals, and campaign assets that keep your brand relevant and consistent.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Create Content That Builds Attention and Trust",
+      "introParagraph": "Develop high-quality content assets that attract the right audience, reinforce your positioning, and support growth across every channel.",
       "overview": {
-        "paragraph": "At OneCinfinity, we help brands grow through custom-tailored social media marketing strategies that connect with your audience. From content creation to campaign optimization, we make sure your presence on platforms like Instagram, Facebook, LinkedIn, and TikTok stands out. Whether you are launching a new brand or scaling an existing one, our experts turn social media into a powerful growth engine.",
+        "paragraph": "We produce content that combines brand voice, audience insight, and channel best practices so your messaging stays clear and effective across web, social, and campaign touchpoints.",
         "images": [
-          "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "https://media.istockphoto.com/id/2217315482/photo/smartphone-app-icons-interface.webp?a=1&b=1&s=612x612&w=0&k=20&c=9OyB-6qKk82m1kBW9K51e0FZadFo0YOPu-8l8TWaDgE="
+          "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
         ]
       },
       "whatsIncluded": {
-        "paragraph": "This service includes full-funnel strategy, creative production, campaign execution, and performance reporting so you can grow consistently while maintaining a strong, on-brand social presence.",
+        "paragraph": "This service covers planning, writing, visual direction, and optimization so your content stays useful and on-brand.",
         "checklist": [
-          "Platform Strategy & Planning",
-          "Creative Content Production",
-          "Paid Ads Management",
-          "Community Engagement",
-          "Performance Reporting & Analytics",
-          "Influencer Collaborations",
-          "Social Listening & Trend Monitoring"
+          "Content Strategy & Planning",
+          "Blog and Article Creation",
+          "Landing Page Copywriting",
+          "Social Content Assets",
+          "Campaign Creative Development",
+          "Editorial Calendar Support",
+          "Content Performance Review"
         ]
       }
     },
     {
       "id": "seo",
-      "pageTitle": "SEO Optimization",
+      "pageTitle": "SEO",
       "cardIcon": "image/Icon-11.png",
       "cardDescription": "Improve search visibility, organic traffic, and qualified leads with technical and content-focused SEO.",
       "mainBannerImage": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1251&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -57,36 +57,36 @@
       }
     },
     {
-      "id": "content-marketing",
-      "pageTitle": "Content Marketing",
-      "cardIcon": "image/digital-marketing-icons-F4LJ4W8.png",
-      "cardDescription": "Attract and convert your ideal audience with SEO-focused, value-driven content.",
-      "mainBannerImage": "http://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "mainHeading": "Build Trust and Authority with Content Marketing",
-      "introParagraph": "Create high-value content that attracts the right audience, builds credibility, and turns visitors into loyal customers across every stage of the funnel.",
+      "id": "brand-advertisement",
+      "pageTitle": "Brand Advertisement",
+      "cardIcon": "image/Icon-6.png",
+      "cardDescription": "Build brand awareness with clear, consistent campaigns that make your business more recognizable.",
+      "mainBannerImage": "https://media.istockphoto.com/id/1256957121/photo/sample-strips-color-swatch-and-mobile-application-design.webp?a=1&b=1&s=612x612&w=0&k=20&c=GrjeqBt6K6ecR0kGLRpNHSXruLCqltzQSTIVhJHym3E=",
+      "mainHeading": "Strengthen Recognition with Brand Advertisement",
+      "introParagraph": "Reach new audiences and keep your brand top-of-mind with campaigns designed to increase awareness, recall, and visibility.",
       "overview": {
-        "paragraph": "Our content marketing strategies combine audience research, SEO planning, and consistent storytelling to help your brand stay visible and relevant. From blogs and landing pages to campaign assets, we create content that performs.",
+        "paragraph": "We shape brand advertising around positioning, audience targeting, and creative consistency so every impression reinforces who you are and why you matter.",
         "images": [
-          "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "https://images.unsplash.com/photo-1716471330463-f475b00f0506?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop"
         ]
       },
       "whatsIncluded": {
-        "paragraph": "We align your content calendar with business goals so each asset supports growth, engagement, and measurable performance.",
+        "paragraph": "This service combines audience targeting, ad creative, and reporting so your brand message is seen by the right people.",
         "checklist": [
-          "Content Strategy & Planning",
-          "SEO-Focused Blog Writing",
-          "Landing Page Copywriting",
-          "Social Content Repurposing",
-          "Editorial Calendar Management",
-          "Content Performance Analytics",
-          "Continuous Content Optimization"
+          "Brand Positioning Review",
+          "Creative Campaign Planning",
+          "Awareness Campaign Setup",
+          "Audience Targeting",
+          "Visual Asset Coordination",
+          "Campaign Monitoring",
+          "Performance Reporting"
         ]
       }
     },
     {
-      "id": "ppc-advertising",
-      "pageTitle": "PPC Advertising",
+      "id": "ppc",
+      "pageTitle": "PPC",
       "cardIcon": "image/Icon-8.png",
       "cardDescription": "Capture high-intent traffic fast through optimized, ROI-focused paid campaigns.",
       "mainBannerImage": "https://images.unsplash.com/photo-1636647677481-f134fda3f408?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -95,8 +95,8 @@
       "overview": {
         "paragraph": "We manage end-to-end paid campaigns across Google, Meta, and other channels, combining smart audience segmentation with creative testing and budget optimization to maximize ROI.",
         "images": [
-          "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "https://plus.unsplash.com/premium_photo-1682310178386-1d20be620733?q=80&w=1212&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1682310178386-1d20be620733?q=80&w=1212&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
         ]
       },
       "whatsIncluded": {
@@ -109,6 +109,566 @@
           "Conversion Tracking Setup",
           "Remarketing Campaigns",
           "Monthly ROI Reporting"
+        ]
+      }
+    },
+    {
+      "id": "social-media-management",
+      "pageTitle": "Social Media Management",
+      "cardIcon": "image/Icon-7.png",
+      "cardDescription": "Grow visibility, engagement, and conversions with platform-first social campaigns.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Manage Your Brand Presence Across Social Channels",
+      "introParagraph": "Keep your audience engaged with consistent, strategic social media management built around your brand goals and platform behavior.",
+      "overview": {
+        "paragraph": "At OneCinfinity, we help brands grow through custom-tailored social media strategies that connect with your audience. From content creation to campaign optimization, we make sure your presence on platforms like Instagram, Facebook, LinkedIn, and TikTok stands out. Whether you are launching a new brand or scaling an existing one, our experts turn social media into a powerful growth engine.",
+        "images": [
+          "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://media.istockphoto.com/id/2217315482/photo/smartphone-app-icons-interface.webp?a=1&b=1&s=612x612&w=0&k=20&c=9OyB-6qKk82m1kBW9K51e0FZadFo0YOPu-8l8TWaDgE="
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This service includes full-funnel strategy, creative production, campaign execution, and performance reporting so you can grow consistently while maintaining a strong, on-brand social presence.",
+        "checklist": [
+          {
+            "id": "content-creation",
+            "pageTitle": "Content Creation",
+            "cardIcon": "image/digital-marketing-icons-F4LJ4W8.png",
+            "cardDescription": "Create scroll-stopping blogs, visuals, and campaign assets that keep your brand relevant and consistent.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Create Content That Builds Attention and Trust",
+            "introParagraph": "Develop high-quality content assets that attract the right audience, reinforce your positioning, and support growth across every channel.",
+            "overview": {
+              "paragraph": "We produce content that combines brand voice, audience insight, and channel best practices so your messaging stays clear and effective across web, social, and campaign touchpoints.",
+              "images": [
+                "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service covers planning, writing, visual direction, and optimization so your content stays useful and on-brand.",
+              "checklist": [
+                "Content Strategy & Planning",
+                "Blog and Article Creation",
+                "Landing Page Copywriting",
+                "Social Content Assets",
+                "Campaign Creative Development",
+                "Editorial Calendar Support",
+                "Content Performance Review"
+              ]
+            }
+          },
+          {
+            "id": "seo",
+            "pageTitle": "SEO",
+            "cardIcon": "image/Icon-11.png",
+            "cardDescription": "Improve search visibility, organic traffic, and qualified leads with technical and content-focused SEO.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1251&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Grow Organic Visibility with Search Engine Optimization",
+            "introParagraph": "Increase rankings, attract high-intent visitors, and build long-term search visibility with SEO strategies designed around your goals and market.",
+            "overview": {
+              "paragraph": "At OneCinfinity, we build SEO strategies that combine technical optimization, content alignment, and ongoing performance analysis. From keyword research and on-page improvements to site structure and local visibility, we help your brand earn sustainable organic growth.",
+              "images": [
+                "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "https://images.unsplash.com/photo-1674027001834-719c347d1eca?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This SEO service covers the core actions needed to improve discoverability, strengthen relevance, and turn search traffic into measurable business results.",
+              "checklist": [
+                "Keyword Research & Search Intent Mapping",
+                "Technical SEO Audit",
+                "On-Page Optimization",
+                "Content Strategy & Optimization",
+                "Local SEO Setup",
+                "Internal Linking Improvements",
+                "Performance Tracking & Reporting"
+              ]
+            }
+          },
+          {
+            "id": "brand-advertisement",
+            "pageTitle": "Brand Advertisement",
+            "cardIcon": "image/Icon-6.png",
+            "cardDescription": "Build brand awareness with clear, consistent campaigns that make your business more recognizable.",
+            "mainBannerImage": "https://media.istockphoto.com/id/1256957121/photo/sample-strips-color-swatch-and-mobile-application-design.webp?a=1&b=1&s=612x612&w=0&k=20&c=GrjeqBt6K6ecR0kGLRpNHSXruLCqltzQSTIVhJHym3E=",
+            "mainHeading": "Strengthen Recognition with Brand Advertisement",
+            "introParagraph": "Reach new audiences and keep your brand top-of-mind with campaigns designed to increase awareness, recall, and visibility.",
+            "overview": {
+              "paragraph": "We shape brand advertising around positioning, audience targeting, and creative consistency so every impression reinforces who you are and why you matter.",
+              "images": [
+                "https://images.unsplash.com/photo-1716471330463-f475b00f0506?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service combines audience targeting, ad creative, and reporting so your brand message is seen by the right people.",
+              "checklist": [
+                "Brand Positioning Review",
+                "Creative Campaign Planning",
+                "Awareness Campaign Setup",
+                "Audience Targeting",
+                "Visual Asset Coordination",
+                "Campaign Monitoring",
+                "Performance Reporting"
+              ]
+            }
+          },
+          {
+            "id": "ppc",
+            "pageTitle": "PPC",
+            "cardIcon": "image/Icon-8.png",
+            "cardDescription": "Capture high-intent traffic fast through optimized, ROI-focused paid campaigns.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1636647677481-f134fda3f408?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Scale Faster with Performance-Driven PPC Advertising",
+            "introParagraph": "Reach high-intent audiences with precision targeting and ad campaigns designed to generate quality leads, conversions, and profitable growth.",
+            "overview": {
+              "paragraph": "We manage end-to-end paid campaigns across Google, Meta, and other channels, combining smart audience segmentation with creative testing and budget optimization to maximize ROI.",
+              "images": [
+                "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://plus.unsplash.com/premium_photo-1682310178386-1d20be620733?q=80&w=1212&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "Every campaign is built around measurable outcomes, with transparent reporting and rapid optimization cycles.",
+              "checklist": [
+                "Campaign Setup & Structure",
+                "Keyword and Audience Research",
+                "Ad Copy and Creative Testing",
+                "Bid and Budget Optimization",
+                "Conversion Tracking Setup",
+                "Remarketing Campaigns",
+                "Monthly ROI Reporting"
+              ]
+            }
+          },
+          {
+            "id": "social-media-management",
+            "pageTitle": "Social Media Management",
+            "cardIcon": "image/Icon-7.png",
+            "cardDescription": "Grow visibility, engagement, and conversions with platform-first social campaigns.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Manage Your Brand Presence Across Social Channels",
+            "introParagraph": "Keep your audience engaged with consistent, strategic social media management built around your brand goals and platform behavior.",
+            "overview": {
+              "paragraph": "At OneCinfinity, we help brands grow through custom-tailored social media strategies that connect with your audience. From content creation to campaign optimization, we make sure your presence on platforms like Instagram, Facebook, LinkedIn, and TikTok stands out. Whether you are launching a new brand or scaling an existing one, our experts turn social media into a powerful growth engine.",
+              "images": [
+                "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "https://media.istockphoto.com/id/2217315482/photo/smartphone-app-icons-interface.webp?a=1&b=1&s=612x612&w=0&k=20&c=9OyB-6qKk82m1kBW9K51e0FZadFo0YOPu-8l8TWaDgE="
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service includes full-funnel strategy, creative production, campaign execution, and performance reporting so you can grow consistently while maintaining a strong, on-brand social presence.",
+              "checklist": [
+                "Platform Strategy & Planning",
+                "Creative Content Production",
+                "Paid Ads Management",
+                "Community Engagement",
+                "Performance Reporting & Analytics",
+                "Influencer Collaborations",
+                "Social Listening & Trend Monitoring"
+              ]
+            }
+          },
+          {
+            "id": "meta-ads",
+            "pageTitle": "Meta Ads",
+            "cardIcon": "image/Icon-7.png",
+            "cardDescription": "Run Facebook and Instagram ads that reach the right audience and drive measurable results.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Reach the Right Audience with Meta Ads",
+            "introParagraph": "Use Meta's ad platform to target users more precisely, improve campaign efficiency, and support growth with paid social.",
+            "overview": {
+              "paragraph": "We build and manage Meta ad campaigns with audience segmentation, creative testing, and performance tracking so your ads keep improving across Facebook and Instagram placements.",
+              "images": [
+                "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "Our Meta Ads service balances smart targeting with creative testing to help you drive awareness, traffic, and conversions.",
+              "checklist": [
+                "Campaign Setup & Tracking",
+                "Audience Segmentation",
+                "Ad Creative Testing",
+                "Retargeting Campaigns",
+                "Budget Optimization",
+                "Landing Page Alignment",
+                "Performance Reporting"
+              ]
+            }
+          },
+          {
+            "id": "google-ads",
+            "pageTitle": "Google Ads",
+            "cardIcon": "image/Icon-3.png",
+            "cardDescription": "Reach search-ready audiences with targeted campaigns built to generate leads and sales.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1636647677481-f134fda3f408?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Grow Faster with Google Ads",
+            "introParagraph": "Capture intent-driven traffic through search and display campaigns designed to bring in qualified visitors and measurable conversions.",
+            "overview": {
+              "paragraph": "We plan, build, and optimize Google Ads campaigns using keyword research, audience targeting, and budget controls that keep spend focused on performance.",
+              "images": [
+                "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://plus.unsplash.com/premium_photo-1682310178386-1d20be620733?q=80&w=1212&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "Our Google Ads setup focuses on relevance, quality score improvements, and conversion tracking so every campaign can be measured clearly.",
+              "checklist": [
+                "Search Campaign Setup",
+                "Keyword Research",
+                "Ad Copy Optimization",
+                "Bid Strategy Management",
+                "Conversion Tracking",
+                "Remarketing Setup",
+                "Performance Reporting"
+              ]
+            }
+          },
+          {
+            "id": "cgi",
+            "pageTitle": "CGI",
+            "cardIcon": "image/Icon-2.png",
+            "cardDescription": "Create high-impact computer-generated visuals and motion assets for modern campaigns.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Bring Concepts to Life with CGI",
+            "introParagraph": "Use CGI to present products, spaces, and ideas with polished visual storytelling that feels premium and precise.",
+            "overview": {
+              "paragraph": "We create CGI assets that help brands showcase complex ideas in a clean, compelling visual format suitable for ads, launches, and presentations.",
+              "images": [
+                "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service covers CGI concepting, scene creation, rendering, and output optimization for digital use.",
+              "checklist": [
+                "Concept Development",
+                "3D Scene Planning",
+                "Asset Modeling",
+                "Rendering Support",
+                "Marketing Asset Output",
+                "Revision Rounds",
+                "Delivery for Web and Social"
+              ]
+            }
+          },
+          {
+            "id": "ai-animation",
+            "pageTitle": "Ai Animation",
+            "cardIcon": "image/icon-1.png",
+            "cardDescription": "Produce animated content and motion-driven assets that make complex ideas easier to understand.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
+            "mainHeading": "Tell Better Stories with Ai Animation",
+            "introParagraph": "Use AI-assisted animation workflows to create engaging visuals for campaigns, explainers, and social content.",
+            "overview": {
+              "paragraph": "We blend creative direction with modern motion tools to develop animation assets that are efficient to produce and easy to adapt across channels.",
+              "images": [
+                "https://plus.unsplash.com/premium_photo-1661384118133-8f8b6eef9715?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service covers animation planning, motion direction, and export-ready delivery for marketing use.",
+              "checklist": [
+                "Motion Concepting",
+                "Storyboard Planning",
+                "Animation Production",
+                "Social Video Variations",
+                "Explainer Asset Creation",
+                "Format Optimization",
+                "Revision Support"
+              ]
+            }
+          },
+          {
+            "id": "model-creation",
+            "pageTitle": "Model Creation",
+            "cardIcon": "image/Icon-12.png",
+            "cardDescription": "Develop digital models and visual assets that support product, brand, or concept presentation.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Create Precise Digital Models for Your Brand",
+            "introParagraph": "Present products and ideas with tailored model creation that supports marketing, visualization, and internal planning.",
+            "overview": {
+              "paragraph": "We design model assets with a focus on accuracy, presentation quality, and downstream use across campaigns and product materials.",
+              "images": [
+                "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service supports concept modeling, refinement, and final asset preparation for marketing and presentation needs.",
+              "checklist": [
+                "Concept Modeling",
+                "Reference Gathering",
+                "Digital Asset Refinement",
+                "Presentation Formatting",
+                "Export Preparation",
+                "Revision Support",
+                "Delivery for Multi-Channel Use"
+              ]
+            }
+          },
+          {
+            "id": "influencer-marketing",
+            "pageTitle": "Influencer Marketing",
+            "cardIcon": "image/Icon-7.png",
+            "cardDescription": "Partner with creators who can introduce your brand to the audiences that matter most.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "mainHeading": "Expand Reach with Influencer Marketing",
+            "introParagraph": "Use creator partnerships to build trust, amplify campaigns, and connect with niche audiences in a more authentic way.",
+            "overview": {
+              "paragraph": "We plan influencer campaigns that align with your audience, brand tone, and campaign goals so collaborations feel relevant and measurable.",
+              "images": [
+                "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://media.istockphoto.com/id/2217315482/photo/smartphone-app-icons-interface.webp?a=1&b=1&s=612x612&w=0&k=20&c=9OyB-6qKk82m1kBW9K51e0FZadFo0YOPu-8l8TWaDgE="
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service covers influencer discovery, campaign coordination, and performance review to help partnerships drive real impact.",
+              "checklist": [
+                "Creator Discovery",
+                "Campaign Briefing",
+                "Partnership Coordination",
+                "Content Review",
+                "Posting Schedule Management",
+                "Performance Tracking",
+                "Post-Campaign Reporting"
+              ]
+            }
+          },
+          {
+            "id": "sales-marketing",
+            "pageTitle": "Sales Marketing",
+            "cardIcon": "image/Icon-5.png",
+            "cardDescription": "Support revenue growth with messaging and campaigns aligned to your sales goals.",
+            "mainBannerImage": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+            "mainHeading": "Drive Revenue with Sales Marketing",
+            "introParagraph": "Turn awareness into pipeline support with campaigns and content built to help your sales process convert better.",
+            "overview": {
+              "paragraph": "We align marketing activity with sales objectives so your campaigns support lead quality, follow-up readiness, and stronger conversion outcomes.",
+              "images": [
+                "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+                "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+              ]
+            },
+            "whatsIncluded": {
+              "paragraph": "This service keeps messaging, offers, and campaign structure aligned to the parts of the funnel that influence revenue most.",
+              "checklist": [
+                "Sales Funnel Review",
+                "Lead Generation Support",
+                "Campaign Messaging",
+                "Offer Positioning",
+                "Follow-Up Content",
+                "Conversion Tracking",
+                "Performance Reporting"
+              ]
+            }
+          },
+          "Creative Direction",
+          "Animation Storyboarding",
+          "AI-Assisted Motion Production",
+          "Brand Styling",
+          "Short-Form Video Assets",
+          "Revision Support",
+          "Platform-Ready Deliverables"
+        ]
+      }
+    },
+    {
+      "id": "meta-ads",
+      "pageTitle": "Meta Ads",
+      "cardIcon": "image/Icon-7.png",
+      "cardDescription": "Run Facebook and Instagram ads that reach the right audience and drive measurable results.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+      "mainHeading": "Reach the Right Audience with Meta Ads",
+      "introParagraph": "Use Meta's ad platform to target users more precisely, improve campaign efficiency, and support growth with paid social.",
+      "overview": {
+        "paragraph": "We build and manage Meta ad campaigns with audience segmentation, creative testing, and performance tracking so your ads keep improving across Facebook and Instagram placements.",
+        "images": [
+          "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Our Meta Ads service balances smart targeting with creative testing to help you drive awareness, traffic, and conversions.",
+        "checklist": [
+          "Campaign Setup & Tracking",
+          "Audience Segmentation",
+          "Ad Creative Testing",
+          "Retargeting Campaigns",
+          "Budget Optimization",
+          "Landing Page Alignment",
+          "Performance Reporting"
+        ]
+      }
+    },
+    {
+      "id": "google-ads",
+      "pageTitle": "Google Ads",
+      "cardIcon": "image/Icon-3.png",
+      "cardDescription": "Reach search-ready audiences with targeted campaigns built to generate leads and sales.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1636647677481-f134fda3f408?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+      "mainHeading": "Grow Faster with Google Ads",
+      "introParagraph": "Capture intent-driven traffic through search and display campaigns designed to bring in qualified visitors and measurable conversions.",
+      "overview": {
+        "paragraph": "We plan, build, and optimize Google Ads campaigns using keyword research, audience targeting, and budget controls that keep spend focused on performance.",
+        "images": [
+          "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1682310178386-1d20be620733?q=80&w=1212&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Our Google Ads setup focuses on relevance, quality score improvements, and conversion tracking so every campaign can be measured clearly.",
+        "checklist": [
+          "Search Campaign Setup",
+          "Keyword Research",
+          "Ad Copy Optimization",
+          "Bid Strategy Management",
+          "Conversion Tracking",
+          "Remarketing Setup",
+          "Performance Reporting"
+        ]
+      }
+    },
+    {
+      "id": "cgi",
+      "pageTitle": "CGI",
+      "cardIcon": "image/Icon-2.png",
+      "cardDescription": "Create high-impact computer-generated visuals and motion assets for modern campaigns.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+      "mainHeading": "Bring Concepts to Life with CGI",
+      "introParagraph": "Use CGI to present products, spaces, and ideas with polished visual storytelling that feels premium and precise.",
+      "overview": {
+        "paragraph": "We create CGI assets that help brands showcase complex ideas in a clean, compelling visual format suitable for ads, launches, and presentations.",
+        "images": [
+          "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This service covers CGI concepting, scene creation, rendering, and output optimization for digital use.",
+        "checklist": [
+          "Concept Development",
+          "3D Scene Planning",
+          "Asset Modeling",
+          "Rendering Support",
+          "Marketing Asset Output",
+          "Revision Rounds",
+          "Delivery for Web and Social"
+        ]
+      }
+    },
+    {
+      "id": "ai-animation",
+      "pageTitle": "Ai Animation",
+      "cardIcon": "image/icon-1.png",
+      "cardDescription": "Produce animated content and motion-driven assets that make complex ideas easier to understand.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
+      "mainHeading": "Tell Better Stories with Ai Animation",
+      "introParagraph": "Use AI-assisted animation workflows to create engaging visuals for campaigns, explainers, and social content.",
+      "overview": {
+        "paragraph": "We blend creative direction with modern motion tools to develop animation assets that are efficient to produce and easy to adapt across channels.",
+        "images": [
+          "https://plus.unsplash.com/premium_photo-1661384118133-8f8b6eef9715?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This service covers animation planning, motion direction, and export-ready delivery for marketing use.",
+        "checklist": [
+          "Motion Concepting",
+          "Storyboard Planning",
+          "Animation Production",
+          "Social Video Variations",
+          "Explainer Asset Creation",
+          "Format Optimization",
+          "Revision Support"
+        ]
+      }
+    },
+    {
+      "id": "model-creation",
+      "pageTitle": "Model Creation",
+      "cardIcon": "image/Icon-4.png",
+      "cardDescription": "Build detailed digital models that support product visualization, presentation, and planning.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+      "mainHeading": "Create Accurate Digital Models for Your Projects",
+      "introParagraph": "Use model creation to visualize products and concepts before production, launch, or promotion.",
+      "overview": {
+        "paragraph": "We develop digital models that help you communicate structure, proportion, and detail with a high level of clarity.",
+        "images": [
+          "https://plus.unsplash.com/premium_photo-1685086785077-ff65bf749544?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Model creation supports planning, presentation, and concept validation across marketing and production workflows.",
+        "checklist": [
+          "Concept Modeling",
+          "Product Structure Drafting",
+          "Detail Refinement",
+          "Visual Review",
+          "Revision Iterations",
+          "Export Preparation",
+          "Final Delivery"
+        ]
+      }
+    },
+    {
+      "id": "influencer-marketing",
+      "pageTitle": "Influencer Marketing",
+      "cardIcon": "image/Icon-7.png",
+      "cardDescription": "Partner with creators who can amplify your message and build trust with the right audience.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "mainHeading": "Expand Reach with Influencer Marketing",
+      "introParagraph": "Work with creators who can introduce your brand to new audiences in a way that feels credible and relevant.",
+      "overview": {
+        "paragraph": "We manage influencer strategy, outreach, and campaign tracking so collaborations stay aligned with your brand goals and audience fit.",
+        "images": [
+          "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://media.istockphoto.com/id/2217315482/photo/smartphone-app-icons-interface.webp?a=1&b=1&s=612x612&w=0&k=20&c=9OyB-6qKk82m1kBW9K51e0FZadFo0YOPu-8l8TWaDgE="
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "This service covers creator selection, campaign coordination, and performance review.",
+        "checklist": [
+          "Creator Research",
+          "Influencer Outreach",
+          "Campaign Planning",
+          "Content Coordination",
+          "Usage and Deliverables Review",
+          "Campaign Tracking",
+          "Performance Reporting"
+        ]
+      }
+    },
+    {
+      "id": "sales-marketing",
+      "pageTitle": "Sales Marketing",
+      "cardIcon": "image/Icon-5.png",
+      "cardDescription": "Support your sales pipeline with marketing systems that turn interest into action.",
+      "mainBannerImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
+      "mainHeading": "Drive Revenue with Sales Marketing",
+      "introParagraph": "Align messaging, follow-up, and campaign support to help prospects move from interest to purchase.",
+      "overview": {
+        "paragraph": "We build sales marketing support around lead nurturing, conversion messaging, and campaign alignment so your marketing activity contributes directly to revenue goals.",
+        "images": [
+          "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D",
+          "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8a%3D%3D"
+        ]
+      },
+      "whatsIncluded": {
+        "paragraph": "Sales marketing support focuses on lead quality, conversion flow, and measurable revenue impact.",
+        "checklist": [
+          "Lead Nurture Messaging",
+          "Conversion Funnel Support",
+          "Sales Campaign Planning",
+          "Follow-Up Sequence Strategy",
+          "Offer Positioning",
+          "Pipeline Reporting",
+          "Performance Review"
         ]
       }
     },
