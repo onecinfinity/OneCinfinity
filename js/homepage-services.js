@@ -11,7 +11,7 @@ fetch('data/services.json', { cache: 'no-store' })
             services.forEach(function(service) {
                 html += '<div class="col">';
                 html += '  <div class="card card-service">';
-                html += '    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">';
+                html += '    <div class="d-flex flex-row justify-content-start gspace-2 gspace-md-3 align-items-center">';
                 html += '      <div>';
                 html += '        <div class="service-icon-wrapper">';
                 html += '          <div class="service-icon">';
@@ -24,7 +24,7 @@ fetch('data/services.json', { cache: 'no-store' })
                 html += '      </div>';
                 html += '    </div>';
                 html += '    <p>' + service.cardDescription + '</p>';
-                html += '    <a href="single_services.html?id=' + service.id + '" class="btn btn-accent">';
+                html += '    <a href="single_services/?id=' + service.id + '" class="btn btn-accent">';
                 html += '      <div class="btn-title"><span>View Details</span></div>';
                 html += '      <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>';
                 html += '    </a>';

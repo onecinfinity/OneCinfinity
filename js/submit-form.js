@@ -22,7 +22,6 @@ function initSubmitContact() {
             return;
         } else {
             $errorMessage.addClass('hidden');
-<<<<<<< HEAD
             var $form = $(this);
             var $btn = $form.find('button[type="submit"]');
             var originalText = $btn.text();
@@ -70,19 +69,6 @@ function initSubmitContact() {
             }).finally(function() {
                 $btn.text(originalText).prop('disabled', false);
             });
-=======
-            // Submit the form natively so Netlify can capture it
-            try {
-                event.currentTarget.submit();
-            } catch (e) {
-                // Fallback: show client-side success and reset
-                $successMessage.removeClass('hidden');
-                $('#contactForm')[0].reset();
-                setTimeout(function () {
-                    $successMessage.addClass('hidden');
-                }, 3000);
-            }
->>>>>>> 72b1857381fac9b6b167a26b88b8d1d79ddd407c
         }
     });
 }

@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$running = Get-NetTCPConnection -LocalPort 5500 -State Listen -ErrorAction SilentlyContinue; if (-not $running) { Start-Process -FilePath 'npx' -ArgumentList 'live-server', 'D:\\OneCinfinity', '--port=5500', '--no-browser' -WindowStyle Hidden }",
+            "shell": "powershell",
+            "async": true,
+            "statusMessage": "Starting live server..."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@ const globalLoaderState = {
 
 const globalLoaderAnimationSpeed = 1.5; // Adjust this to control animation speed (0.5 = half speed, 2 = double speed)
 
-function resetGlobalLoaderState() {
+            url: "contact/index.html"
     globalLoaderState.shellReady = false;
     globalLoaderState.pageLoaded = document.readyState === 'complete';
     globalLoaderState.animationReady = false;
@@ -499,17 +499,17 @@ $(document).ready(function(){
         {
             title: "About",
             description: "About Marko Home / About Us 0 + Years of Experience on Digital Marketing Services About Us Who We Are & What Drives Us At Marko, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise ensures your brand stays ahead in the competitive digital landscape. Get to know the [...]",
-            url: "about.html"
+            url: "about/"
         },
         {
             title: "Services",
             description: "Our Services Home / Services Our Core Services Digital Solutions That Drive Real Results Social Media Marketing Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip. View Details Content Marketing Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip. View Details PPC Advertising […]",
-            url: "service.html"
+            url: "service/"
         },
         {
             title: "Single Services",
             description: "Social Media Marketing Home / Services Details Our Expertise Boost Your Brand with Strategic Social Media Marketing Maximize engagement, build loyal communities, and drive conversions across all major platforms lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Service Overview At Marko, we help brands grow […]",
-            url: "single_services.html"
+            url: "single_services/"
         },
         {
             title: "Case Studies",
@@ -559,7 +559,7 @@ $(document).ready(function(){
         {
             title: "Contact Us",
             description: "Contact Us Home / Contact Us Reach out to us Get in Touch Reach out to us for tailored digital solutions that drive results sollicitudin nec. Phone Number +1 (62) 987 7543 Email Address hello@markoagency.com Office Address Marko HQ - 902 Digital Lane, San Francisco, CA 94110, USA",
-            url: "contact.html"
+            url: "contact/"
         },
     ];
 

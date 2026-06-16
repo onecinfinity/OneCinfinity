@@ -63,11 +63,61 @@
     return services.length > 0 ? services[0] : null;
   }
 
+  function injectSeoTags(seo) {
+    if (!seo) return;
+
+    if (seo.metaTitle) {
+      document.title = seo.metaTitle;
+      var ogTitle = document.querySelector('meta[property="og:title"]');
+      var twTitle = document.querySelector('meta[name="twitter:title"]');
+      if (ogTitle) ogTitle.setAttribute("content", seo.metaTitle);
+      if (twTitle) twTitle.setAttribute("content", seo.metaTitle);
+    }
+
+    if (seo.metaDescription) {
+      var desc = document.querySelector('meta[name="description"]');
+      var ogDesc = document.querySelector('meta[property="og:description"]');
+      var twDesc = document.querySelector('meta[name="twitter:description"]');
+      if (desc) desc.setAttribute("content", seo.metaDescription);
+      if (ogDesc) ogDesc.setAttribute("content", seo.metaDescription);
+      if (twDesc) twDesc.setAttribute("content", seo.metaDescription);
+    }
+
+    if (seo.metaKeywords) {
+      var keywords = document.querySelector('meta[name="keywords"]');
+      if (keywords) {
+        keywords.setAttribute("content", seo.metaKeywords);
+      } else {
+        var kw = document.createElement("meta");
+        kw.setAttribute("name", "keywords");
+        kw.setAttribute("content", seo.metaKeywords);
+        document.head.appendChild(kw);
+      }
+    }
+
+    if (seo.canonicalUrl) {
+      var canonical = document.querySelector('link[rel="canonical"]');
+      if (canonical) {
+        canonical.setAttribute("href", seo.canonicalUrl);
+      } else {
+        var link = document.createElement("link");
+        link.setAttribute("rel", "canonical");
+        link.setAttribute("href", seo.canonicalUrl);
+        document.head.appendChild(link);
+      }
+      var ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) {
+        ogUrl.setAttribute("content", seo.canonicalUrl);
+      }
+    }
+  }
+
   function renderService(service) {
     if (!service) {
       return;
     }
 
+    injectSeoTags(service.seo);
     setText("service-page-title", service.pageTitle);
     setImage("service-main-banner-image", service.mainBannerImage, "Service main banner");
     setText("service-main-heading", service.mainHeading);
@@ -93,7 +143,7 @@
       var serviceId = getServiceIdFromUrl();
 
       if (!serviceId) {
-        window.location.replace("service.html");
+        window.location.replace("service/");
         return;
       }
 

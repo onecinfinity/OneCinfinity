@@ -17,7 +17,7 @@
     return [
       '<div class="col">',
       '  <div class="card card-service">',
-      '    <div class="d-flex flex-row justify-content-between gspace-2 gspace-md-3 align-items-center">',
+      '    <div class="d-flex flex-row justify-content-start gspace-2 gspace-md-3 align-items-center">',
       '      <div>',
       '        <div class="service-icon-wrapper">',
       '          <div class="service-icon">',
@@ -30,7 +30,7 @@
       '      </div>',
       '    </div>',
       '    <p>' + description + '</p>',
-      '    <a href="single_services.html?id=' + id + '" class="btn btn-accent">',
+      '    <a href="single_services/?id=' + id + '" class="btn btn-accent">',
       '      <div class="btn-title"><span>View Details</span></div>',
       '      <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>',
       '    </a>',
