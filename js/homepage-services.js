@@ -24,7 +24,7 @@ fetch('data/services.json', { cache: 'no-store' })
                 html += '      </div>';
                 html += '    </div>';
                 html += '    <p>' + service.cardDescription + '</p>';
-                html += '    <a href="single_services/?id=' + service.id + '" class="btn btn-accent">';
+                html += '    <a href="' + service.id + '/" class="btn btn-accent">';
                 html += '      <div class="btn-title"><span>View Details</span></div>';
                 html += '      <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>';
                 html += '    </a>';

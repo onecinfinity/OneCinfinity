@@ -9,7 +9,7 @@
   }
 
   function buildCardHtml(service) {
-    var id = encodeURIComponent(service.id || "social-media-marketing");
+    var id = encodeURIComponent(service.id || "social-media-management");
     var title = escapeHtml(service.pageTitle || "Service");
     var icon = escapeHtml(service.cardIcon || "image/Icon-7.png");
     var description = escapeHtml(service.cardDescription || service.introParagraph || "");
@@ -30,7 +30,7 @@
       '      </div>',
       '    </div>',
       '    <p>' + description + '</p>',
-      '    <a href="single_services/?id=' + id + '" class="btn btn-accent">',
+      '    <a href="' + id + '/" class="btn btn-accent">',
       '      <div class="btn-title"><span>View Details</span></div>',
       '      <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>',
       '    </a>',

@@ -186,9 +186,9 @@ if (globalLoaderState.pageLoaded) {
 */
 
 Promise.all([
-    fetch("header.html").then(res => res.text()),
-    fetch("footer.html").then(res => res.text()),
-    fetch("sidebar.html").then(res => res.text()),
+    fetch("header.html", { cache: 'no-store' }).then(res => res.text()),
+    fetch("footer.html", { cache: 'no-store' }).then(res => res.text()),
+    fetch("sidebar.html", { cache: 'no-store' }).then(res => res.text()),
   ])
   .then(([headerHTML, footerHTML, sidebarHTML, searchHTML]) => {
     $("#header").html(headerHTML);
