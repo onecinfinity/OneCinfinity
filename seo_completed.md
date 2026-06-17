@@ -2,16 +2,16 @@
 
 ## City Pages (Static HTML)
 
-- https://www.onecinfinity.com/single_services/digital-marketing-agency-lahore/
-- https://www.onecinfinity.com/single_services/digital-marketing-agency-islamabad/
-- https://www.onecinfinity.com/single_services/social-media-marketing-lahore/
-- https://www.onecinfinity.com/single_services/social-media-marketing-islamabad/
-- https://www.onecinfinity.com/single_services/seo-services-lahore/
-- https://www.onecinfinity.com/single_services/seo-services-islamabad/
-- https://www.onecinfinity.com/single_services/graphic-designing-services-lahore/
-- https://www.onecinfinity.com/single_services/graphic-designing-services-islamabad/
-- https://www.onecinfinity.com/single_services/web-development-company-lahore/
-- https://www.onecinfinity.com/single_services/web-development-company-islamabad/
+- https://www.onecinfinity.com/digital-marketing-agency-lahore/
+- https://www.onecinfinity.com/digital-marketing-agency-islamabad/
+- https://www.onecinfinity.com/social-media-marketing-lahore/
+- https://www.onecinfinity.com/social-media-marketing-islamabad/
+- https://www.onecinfinity.com/seo-services-lahore/
+- https://www.onecinfinity.com/seo-services-islamabad/
+- https://www.onecinfinity.com/graphic-designing-services-lahore/
+- https://www.onecinfinity.com/graphic-designing-services-islamabad/
+- https://www.onecinfinity.com/web-development-company-lahore/
+- https://www.onecinfinity.com/web-development-company-islamabad/
 
 ## Service Pages (JSON SEO via single_services/?id=)
 
