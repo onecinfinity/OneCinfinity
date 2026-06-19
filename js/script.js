@@ -494,7 +494,7 @@ $(document).ready(function(){
         {
             title: "Home",
             description: "Amplify Your Brand with Cutting-Edge Digital Marketing Watch our video reviews and see how businesses achieve success with Marko's digital marketing solutions. Marko empowers businesses to grow online with data driven digital marketing, innovative branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit amet consectetur. Get Started 2.7k Positive Reviews Ready [...]",
-            url: "index.html"
+            url: "./"
         },
         {
             title: "About",

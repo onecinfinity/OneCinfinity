@@ -7,8 +7,10 @@ fetch('data/services.json', { cache: 'no-store' })
         var grid = document.getElementById('homepage-services-grid');
         
         if (grid) {
+            var slugMap = { "ppc": "ppc-services-pakistan", "seo": "seo-services", "web-development": "web-development-company" };
             var html = '';
             services.forEach(function(service) {
+                var slug = slugMap[service.id] || service.id;
                 html += '<div class="col">';
                 html += '  <div class="card card-service">';
                 html += '    <div class="d-flex flex-row justify-content-start gspace-2 gspace-md-3 align-items-center">';
@@ -24,7 +26,7 @@ fetch('data/services.json', { cache: 'no-store' })
                 html += '      </div>';
                 html += '    </div>';
                 html += '    <p>' + service.cardDescription + '</p>';
-                html += '    <a href="' + service.id + '/" class="btn btn-accent">';
+                html += '    <a href="' + slug + '/" class="btn btn-accent">';
                 html += '      <div class="btn-title"><span>View Details</span></div>';
                 html += '      <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>';
                 html += '    </a>';

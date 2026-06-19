@@ -8,8 +8,15 @@
       .replace(/'/g, "&#39;");
   }
 
+  var slugMap = {
+    "ppc": "ppc-services-pakistan",
+    "seo": "seo-services",
+    "web-development": "web-development-company"
+  };
+
   function buildCardHtml(service) {
-    var id = encodeURIComponent(service.id || "social-media-management");
+    var rawId = service.id || "social-media-management";
+    var id = encodeURIComponent(slugMap[rawId] || rawId);
     var title = escapeHtml(service.pageTitle || "Service");
     var icon = escapeHtml(service.cardIcon || "image/Icon-7.png");
     var description = escapeHtml(service.cardDescription || service.introParagraph || "");
