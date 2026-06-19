@@ -809,6 +809,106 @@ body.no-scroll{
     display: none !important;
 }
 
+/* ================== 08.1 Mega Dropdown ================== */
+
+.mega-dropdown-wrapper {
+    position: relative;
+}
+
+.mega-dropdown {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    width: 800px;
+    background-color: var(--accent-color-4);
+    border: 1px solid var(--accent-color-3);
+    border-radius: var(--global-border-radius);
+    padding: 1.5rem 2rem;
+    z-index: 100;
+    padding-top: 1.5rem;
+    margin-top: 8px;
+}
+
+.mega-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+.mega-dropdown-wrapper:hover .mega-dropdown {
+    display: block;
+}
+
+.mega-dropdown-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.mega-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.mega-arrow {
+    font-size: 10px;
+    margin-left: 4px;
+    transition: transform 0.2s ease;
+}
+
+.mega-dropdown-wrapper:hover .mega-arrow {
+    transform: rotate(180deg);
+}
+
+.mega-col-heading {
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent-color);
+    margin: 0 0 10px 0;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.mega-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.mega-chip {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: var(--font-weight-medium);
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--accent-color-3);
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    background-color: transparent;
+}
+
+.mega-chip:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary);
+    border-color: var(--accent-color);
+}
+
+@media (max-width: 1199px) {
+    .mega-dropdown {
+        display: none !important;
+    }
+}
+
 /* ================== 09. Sidebar ================== */
 
 .sidebar {
