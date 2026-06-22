@@ -1,0 +1,8 @@
+Options -Indexes
+
+RewriteEngine On
+
+# 301 Redirects for renamed service pages
+Redirect 301 /ppc/ https://www.onecinfinity.com/ppc-services-pakistan/
+Redirect 301 /seo/ https://www.onecinfinity.com/seo-services/
+Redirect 301 /web-development/ https://www.onecinfinity.com/web-development-company/
