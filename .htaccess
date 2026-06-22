@@ -6,3 +6,55 @@ RewriteEngine On
 Redirect 301 /ppc/ https://www.onecinfinity.com/ppc-services-pakistan/
 Redirect 301 /seo/ https://www.onecinfinity.com/seo-services/
 Redirect 301 /web-development/ https://www.onecinfinity.com/web-development-company/
+
+# 301 Redirects from old dynamic single_services URLs to static pages
+RewriteCond %{QUERY_STRING} ^id=content-creation$
+RewriteRule ^single_services/?$ /content-creation/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=seo$
+RewriteRule ^single_services/?$ /seo-services/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=brand-advertisement$
+RewriteRule ^single_services/?$ /brand-advertisement/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=ppc$
+RewriteRule ^single_services/?$ /ppc-services-pakistan/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=social-media-management$
+RewriteRule ^single_services/?$ /social-media-management/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=meta-ads$
+RewriteRule ^single_services/?$ /meta-ads/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=google-ads$
+RewriteRule ^single_services/?$ /google-ads/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=cgi$
+RewriteRule ^single_services/?$ /cgi/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=ai-animation$
+RewriteRule ^single_services/?$ /ai-animation/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=model-creation$
+RewriteRule ^single_services/?$ /model-creation/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=influencer-marketing$
+RewriteRule ^single_services/?$ /influencer-marketing/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=sales-marketing$
+RewriteRule ^single_services/?$ /sales-marketing/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=email-marketing$
+RewriteRule ^single_services/?$ /email-marketing/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=branding-design$
+RewriteRule ^single_services/?$ /branding-design/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=web-development$
+RewriteRule ^single_services/?$ /web-development-company/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=analytics-reporting$
+RewriteRule ^single_services/?$ /analytics-reporting/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^id=conversion-rate-optimization$
+RewriteRule ^single_services/?$ /conversion-rate-optimization/? [R=301,L]

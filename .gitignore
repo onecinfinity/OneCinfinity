@@ -1,0 +1,5 @@
+# Dynamic single_services page - kept locally only
+single_services/
+
+# Claude launch config
+.claude/launch.json
