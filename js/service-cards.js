@@ -11,7 +11,10 @@
   var slugMap = {
     "ppc": "ppc-services-pakistan",
     "seo": "seo-services",
-    "web-development": "web-development-company"
+    "web-development": "web-development-company",
+    "meta-ads": "facebook-ads-service",
+    "influencer-marketing": "influencer-marketing-agency-pakistan",
+    "email-marketing": "email-marketing-agency"
   };
 
   function buildCardHtml(service) {
@@ -57,7 +60,7 @@
 
   async function loadServiceCards() {
     try {
-      var response = await fetch("data/services.json");
+      var response = await fetch("data/services.json", { cache: "no-store" });
       if (!response.ok) {
         throw new Error("Failed to fetch services.json");
       }
