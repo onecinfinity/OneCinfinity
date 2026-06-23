@@ -7,7 +7,7 @@ fetch('data/services.json', { cache: 'no-store' })
         var grid = document.getElementById('homepage-services-grid');
         
         if (grid) {
-            var slugMap = { "ppc": "ppc-services-pakistan", "seo": "seo-services", "web-development": "web-development-company" };
+            var slugMap = { "ppc": "ppc-services-pakistan", "seo": "seo-services", "web-development": "web-development-company", "meta-ads": "facebook-ads-service", "influencer-marketing": "influencer-marketing-agency-pakistan", "email-marketing": "email-marketing-agency" };
             var html = '';
             services.forEach(function(service) {
                 var slug = slugMap[service.id] || service.id;
