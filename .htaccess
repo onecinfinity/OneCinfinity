@@ -11,6 +11,7 @@ RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 Redirect 301 /ppc/ https://www.onecinfinity.com/ppc-services-pakistan/
 Redirect 301 /seo/ https://www.onecinfinity.com/seo-services/
 Redirect 301 /web-development/ https://www.onecinfinity.com/web-development-company/
+Redirect 301 /email-marketing/ https://www.onecinfinity.com/email-marketing-agency/
 
 # 301 Redirects from old dynamic single_services URLs to static pages
 RewriteCond %{QUERY_STRING} ^id=content-creation$
