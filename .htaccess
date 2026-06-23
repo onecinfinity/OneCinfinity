@@ -2,6 +2,10 @@ Options -Indexes
 
 RewriteEngine On
 
+# Force www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
 # 301 Redirects for renamed service pages
 Redirect 301 /ppc/ https://www.onecinfinity.com/ppc-services-pakistan/
 Redirect 301 /seo/ https://www.onecinfinity.com/seo-services/
