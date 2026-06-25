@@ -24,7 +24,7 @@ function initSubmitContact() {
             $errorMessage.addClass('hidden');
             var $form = $(this);
             var $btn = $form.find('button[type="submit"]');
-            var originalText = $btn.text();
+            var originalHTML = $btn.html();
 
             var formEl = $form[0];
             var formData = new FormData(formEl);
@@ -40,7 +40,7 @@ function initSubmitContact() {
                 if (full) formData.set('name', full);
             }
 
-            $btn.text('Sending...').prop('disabled', true);
+            $btn.html('Sending...').prop('disabled', true);
 
             fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
@@ -67,7 +67,7 @@ function initSubmitContact() {
                     $errorMessage.addClass('hidden');
                 }, 3000);
             }).finally(function() {
-                $btn.text(originalText).prop('disabled', false);
+                $btn.html(originalHTML).prop('disabled', false);
             });
         }
     });
