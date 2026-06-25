@@ -660,6 +660,16 @@ body.no-scroll{
     cursor: pointer;
 }
 
+.contact-error-card{
+    border-color: rgba(236, 27, 35, 0.5);
+}
+
+.contact-error-icon{
+    background: linear-gradient(135deg, rgba(236, 27, 35, 0.25), rgba(236, 27, 35, 0.08));
+    border-color: rgba(236, 27, 35, 0.5);
+    color: var(--accent-color);
+}
+
 .search-form input {
     background-color: var(--accent-transparent);
     border: 1px solid var(--accent-color-5);

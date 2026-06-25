@@ -181,15 +181,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
                     <div class="col col-xl-7">
-                        <div id="success-message" class="alert success hidden">
-                            <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
-                            <p>Thank you! Form submitted successfully.</p>
-                        </div>
-                        
-                        <div id="error-message" class="alert error hidden">
-                            <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
-                            <p>Oops! Form submission failed. Please try again.</p>
-                        </div>
                         <div class="form-layout-wrapper">
                             <div class="card form-layout">
                                 <h2 class="title-heading">Let's Talk About Your Next Project</h2>
@@ -242,6 +233,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </main>
+
+    <!-- Contact Success Popup -->
+    <div id="contact-success-popup" class="newsletter-popup hidden" aria-hidden="true">
+        <div class="newsletter-popup-backdrop"></div>
+        <div class="newsletter-popup-card" role="dialog" aria-modal="true" aria-labelledby="contact-success-title">
+            <button type="button" class="newsletter-popup-close" aria-label="Close popup">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="newsletter-popup-icon">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h3 id="contact-success-title">Message Sent!</h3>
+            <p>Thank you for reaching out. We'll get back to you as soon as possible.</p>
+        </div>
+    </div>
+
+    <!-- Contact Error Popup -->
+    <div id="contact-error-popup" class="newsletter-popup hidden" aria-hidden="true">
+        <div class="newsletter-popup-backdrop"></div>
+        <div class="newsletter-popup-card contact-error-card" role="dialog" aria-modal="true" aria-labelledby="contact-error-title">
+            <button type="button" class="newsletter-popup-close" aria-label="Close popup">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="newsletter-popup-icon contact-error-icon">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h3 id="contact-error-title">Something Went Wrong</h3>
+            <p id="contact-error-text">Submission failed. Please try again or email us directly.</p>
+        </div>
+    </div>
 
     <!-- Section Footer -->
     <footer>

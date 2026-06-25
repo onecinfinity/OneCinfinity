@@ -3,36 +3,40 @@ function initSubmitContact() {
         event.preventDefault();
 
         var $email = $('#email');
-        var $successMessage = $('#success-message');
-        var $errorMessage = $('#error-message');
 
         function validateEmail(email) {
             var pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
             return pattern.test(email);
         }
 
+        function showContactPopup(type, message) {
+            var $popup = type === 'success' ? $('#contact-success-popup') : $('#contact-error-popup');
+            if (!$popup.length) return;
+            if (message && type === 'error') $popup.find('#contact-error-text').text(message);
+            $popup.removeClass('hidden').attr('aria-hidden', 'false');
+            $('body').addClass('no-scroll');
+
+            var closePopup = function() {
+                $popup.addClass('hidden').attr('aria-hidden', 'true');
+                $('body').removeClass('no-scroll');
+            };
+            $popup.find('.newsletter-popup-close, .newsletter-popup-backdrop').off('click').on('click', closePopup);
+            setTimeout(closePopup, type === 'success' ? 5000 : 4000);
+        }
+
         if (!validateEmail($email.val())) {
-            $errorMessage.removeClass('hidden');
-            $successMessage.addClass('hidden');
-
-            setTimeout(function () {
-                $errorMessage.addClass('hidden');
-            }, 3000);
-
+            showContactPopup('error', 'Please enter a valid email address.');
             return;
         } else {
-            $errorMessage.addClass('hidden');
             var $form = $(this);
             var $btn = $form.find('button[type="submit"]');
             var originalHTML = $btn.html();
 
             var formEl = $form[0];
             var formData = new FormData(formEl);
-            // ensure access_key present (contact form uses a different key)
             if (!formData.get('access_key')) {
                 formData.append('access_key', 'a252fc8c-7c79-42f2-8172-d3db4cf42173');
             }
-            // combine first + last into name for Web3Forms
             var first = formData.get('first-name') || '';
             var last = formData.get('last-name') || '';
             if (!formData.get('name')) {
@@ -48,24 +52,14 @@ function initSubmitContact() {
             }).then(function(response) {
                 return response.json().then(function(data) {
                     if (response.ok) {
-                        $successMessage.removeClass('hidden');
+                        showContactPopup('success');
                         $('#contactForm')[0].reset();
-                        setTimeout(function () {
-                            $successMessage.addClass('hidden');
-                        }, 3000);
                     } else {
-                        $errorMessage.removeClass('hidden');
-                        $errorMessage.find('p').text(data.message || 'Form submission failed.');
-                        setTimeout(function () {
-                            $errorMessage.addClass('hidden');
-                        }, 3000);
+                        showContactPopup('error', data.message || 'Submission failed. Please try again.');
                     }
                 });
             }).catch(function() {
-                $errorMessage.removeClass('hidden');
-                setTimeout(function () {
-                    $errorMessage.addClass('hidden');
-                }, 3000);
+                showContactPopup('error', 'Network error. Please check your connection and try again.');
             }).finally(function() {
                 $btn.html(originalHTML).prop('disabled', false);
             });
