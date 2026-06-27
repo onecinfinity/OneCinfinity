@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "One Cinfinity",
+  "url": "https://www.onecinfinity.com/",
+  "logo": "https://www.onecinfinity.com/image/OneCinfinity%20logo%20dark.png",
+  "telephone": "+923211044196",
+  "email": "onecinfinity@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Karachi",
+    "addressCountry": "PK"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61587949995303",
+    "https://x.com/onecinfinity",
+    "https://www.instagram.com/onecinfinity",
+    "https://www.linkedin.com/in/onec-infinity-7956a23b1/"
+  ]
+}
+</script>

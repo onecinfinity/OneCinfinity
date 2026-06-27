@@ -4,7 +4,3 @@ single_services/
 # Claude launch config
 .claude/launch.json
 
-# Schema reference files (embedded directly in HTML)
-local Schema.txt
-organization schema.txt
-website Schema.txt

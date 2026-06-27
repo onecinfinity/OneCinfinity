@@ -1,0 +1,8 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "One Cinfinity",
+  "url": "https://www.onecinfinity.com/"
+}
+</script>
