@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1350px; overflow:hidden; font-family:'Inter',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; background:#111f3c; overflow:hidden; }
+  .watermark { position:absolute; top:-140px; left:-60px; font-family:'Plus Jakarta Sans'; font-weight:800; font-size:620px; color:rgba(255,255,255,0.04); line-height:1; }
+  .header { position:relative; z-index:2; padding:64px 72px 0; }
+  .index { position:absolute; top:64px; right:72px; color:rgba(255,255,255,0.45); font-family:'Inter'; font-size:20px; letter-spacing:2px; z-index:3; }
+  .eyebrow { color:#ffcc3f; font-family:'Inter'; font-weight:700; letter-spacing:4px; font-size:20px; text-transform:uppercase; }
+  .specimen { position:relative; z-index:2; margin-top:120px; padding:0 72px; }
+  .font-name { font-family:'Plus Jakarta Sans'; font-weight:800; font-size:96px; color:#fff; line-height:1.02; }
+  .font-tag { font-family:'Inter'; color:#ffcc3f; font-weight:600; letter-spacing:2px; font-size:18px; text-transform:uppercase; margin-top:16px; }
+  .alphabet { font-family:'Plus Jakarta Sans'; font-weight:500; font-size:34px; color:rgba(255,255,255,0.7); margin-top:56px; line-height:1.5; letter-spacing:1px; }
+  .weights { display:flex; gap:28px; margin-top:56px; flex-wrap:wrap; }
+  .weight-pill { background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14); border-radius:16px; padding:20px 28px; }
+  .weight-pill .w-label { font-family:'Inter'; color:#ffcc3f; font-size:14px; letter-spacing:1px; text-transform:uppercase; margin-bottom:6px; }
+  .weight-pill .w-sample { font-family:'Plus Jakarta Sans'; color:#fff; font-size:28px; }
+  .body-text { position:absolute; bottom:96px; left:72px; right:72px; font-family:'Inter'; font-weight:400; font-size:24px; color:rgba(255,255,255,0.7); line-height:1.5; z-index:2; }
+  .swipe { position:absolute; bottom:40px; right:72px; color:#ffcc3f; font-family:'Inter'; font-weight:600; font-size:24px; z-index:3; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="watermark">Aa</div>
+  <div class="header">
+    <div class="eyebrow">Design System</div>
+    <div class="index">03 / 06</div>
+  </div>
+  <div class="specimen">
+    <div class="font-name">Plus Jakarta<br>Sans</div>
+    <div class="font-tag">The only typeface on the site</div>
+    <div class="alphabet">AaBbCcDdEeFf &nbsp; 0123456789</div>
+    <div class="weights">
+      <div class="weight-pill"><div class="w-label">Regular</div><div class="w-sample" style="font-weight:400;">Aa</div></div>
+      <div class="weight-pill"><div class="w-label">Semibold</div><div class="w-sample" style="font-weight:600;">Aa</div></div>
+      <div class="weight-pill"><div class="w-label">Extrabold</div><div class="w-sample" style="font-weight:800;">Aa</div></div>
+    </div>
+  </div>
+  <div class="body-text">Headlines, body copy, buttons, nav &mdash; one family, every weight. No second font competing for attention.</div>
+  <div class="swipe">Swipe &rarr;</div>
+</div>
+</body>
+</html>

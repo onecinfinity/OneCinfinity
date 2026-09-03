@@ -97,14 +97,14 @@
 
 /* ================== 01. Import Vendor ================== */
 
-@import url('vendor/font-family-plus-jakarta-sans.css');
-@import url('vendor/bootstrap.min.css');
-@import url('vendor/fontawesome.css');
-@import url('vendor/brands.css');
-@import url('vendor/regular.css');
-@import url('vendor/solid.css');
-@import url('vendor/swiper-bundle.min.css');
-@import url('vendor/animate.min.css');
+/*@import url('vendor/font-family-plus-jakarta-sans.css');*/
+/*@import url('vendor/bootstrap.min.css');*/
+/*@import url('vendor/fontawesome.css');*/
+/*@import url('vendor/brands.css');*/
+/*@import url('vendor/regular.css');*/
+/*@import url('vendor/solid.css');*/
+/*@import url('vendor/swiper-bundle.min.css');*/
+/*@import url('vendor/animate.min.css');*/
 
 /* ================== 02 Root Variables ================== */
 
@@ -3353,7 +3353,7 @@ body.lightmode .case-studies-content::before{
 /* ================== 35. Guide Components ================== */
 
 .guide-banner{
-    background-image: url('../image/guidebanner.jpg');
+    background-image: url('../image/guidebanner.webp');
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;

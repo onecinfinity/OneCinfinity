@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Inter:wght@400;500;600;700&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1350px; overflow:hidden; font-family:'Inter',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; background:#00081b; overflow:hidden; }
+  .header { position:relative; z-index:3; padding:56px 64px 0; }
+  .index { position:absolute; top:56px; right:64px; color:rgba(255,255,255,0.45); font-family:'Inter'; font-size:18px; letter-spacing:2px; z-index:3; }
+  .eyebrow { color:#ffcc3f; font-family:'Inter'; font-weight:700; letter-spacing:3px; font-size:18px; text-transform:uppercase; }
+  .headline { font-family:'Poppins'; font-weight:800; font-size:40px; color:#fff; margin-top:12px; }
+
+  .grid { position:relative; z-index:2; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:525px 525px; gap:20px; padding:32px 64px 0; }
+  .card { position:relative; border-radius:16px; overflow:hidden; background:#0c0404; box-shadow:0 24px 50px rgba(0,0,0,0.5); border:1px solid rgba(255,255,255,0.08); display:flex; flex-direction:column; }
+  .bar { flex-shrink:0; display:flex; align-items:center; gap:6px; padding:10px 16px; background:#0b0505; }
+  .dot { width:7px; height:7px; border-radius:50%; background:#3a2a2a; }
+  .dot.on { background:#ec1b23; }
+  .tag { position:absolute; top:8px; right:10px; background:#ffcc3f; color:#00081b; font-family:'Inter'; font-weight:700; font-size:10px; padding:3px 10px; border-radius:12px; letter-spacing:0.5px; text-transform:uppercase; z-index:2; }
+  .shot { flex:1; overflow:hidden; display:flex; align-items:center; justify-content:center; background:#050101; }
+  .shot img { width:100%; height:100%; object-fit:contain; display:block; }
+
+  .footer-row { position:absolute; bottom:32px; left:64px; right:64px; display:flex; justify-content:space-between; align-items:center; z-index:5; }
+  .caption { color:rgba(255,255,255,0.5); font-family:'Inter'; font-size:16px; }
+  .swipe { color:#ffcc3f; font-family:'Inter'; font-weight:600; font-size:22px; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="header">
+    <div class="eyebrow">A Look Inside</div>
+    <div class="headline">The Site, Screen by Screen</div>
+  </div>
+  <div class="index">04 / 06</div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="tag">Home</div>
+      <div class="bar"><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="shot"><img src="Capture1.JPG"></div>
+    </div>
+    <div class="card">
+      <div class="tag">Services</div>
+      <div class="bar"><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="shot"><img src="Capture2.JPG"></div>
+    </div>
+    <div class="card">
+      <div class="tag">Footer</div>
+      <div class="bar"><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="shot"><img src="Capture3.JPG"></div>
+    </div>
+    <div class="card">
+      <div class="tag">Contact</div>
+      <div class="bar"><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="shot"><img src="Capture4.JPG"></div>
+    </div>
+  </div>
+
+  <div class="footer-row">
+    <div class="caption">Real screens from onecinfinity.com</div>
+    <div class="swipe">Swipe &rarr;</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1350px; overflow:hidden; font-family:'Inter',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; background:#111f3c; }
+  .bg-image { position:absolute; inset:0; background-image:url('https://www.onecinfinity.com/image/collaborative-process-of-multicultural-skilled-peo-5EHBQRG-1024x683.jpg'); background-size:cover; background-position:center; filter:brightness(0.35) saturate(1.05); }
+  .overlay { position:absolute; inset:0; background: linear-gradient(180deg, rgba(0,8,27,.75) 0%, rgba(0,8,27,.95) 100%); }
+  .content { position:relative; z-index:2; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 90px; text-align:center; }
+  .logo { height:52px; margin-bottom:56px; opacity:0.95; }
+  .glass-card { background: rgba(255,255,255,0.07); backdrop-filter: blur(24px) saturate(150%); -webkit-backdrop-filter: blur(24px) saturate(150%); border:1px solid rgba(255,255,255,0.16); border-radius:32px; padding:72px 56px; }
+  .eyebrow { color:#ffcc3f; font-family:'Inter'; font-weight:600; letter-spacing:4px; font-size:22px; text-transform:uppercase; }
+  .accent-bar { width:70px; height:6px; background:#ffcc3f; border-radius:3px; margin:24px auto 32px; }
+  .headline { font-family:'Poppins'; font-weight:800; font-size:56px; color:#fff; line-height:1.25; }
+  .body-text { font-family:'Inter'; font-weight:400; font-size:30px; color:rgba(255,255,255,0.85); line-height:1.55; margin-top:28px; }
+  .cta-pill { display:inline-block; margin-top:44px; background:#ffcc3f; color:#00081b; font-family:'Inter'; font-weight:600; font-size:26px; padding:20px 44px; border-radius:50px; }
+  .footer { position:absolute; bottom:56px; left:0; right:0; text-align:center; color:rgba(255,255,255,0.6); font-family:'Inter'; font-size:22px; z-index:3; }
+  .index { position:absolute; top:56px; right:64px; color:rgba(255,255,255,0.5); font-family:'Inter'; font-size:22px; letter-spacing:2px; z-index:3; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="bg-image"></div>
+  <div class="overlay"></div>
+  <div class="content">
+    <img class="logo" src="https://www.onecinfinity.com/image/OneCinfinity%20logo%20light.png" alt="OneC Infinity">
+    <div class="glass-card">
+      <div class="eyebrow">Your Turn</div>
+      <div class="accent-bar"></div>
+      <div class="headline">Is Your Site Due for the Same Treatment?</div>
+      <div class="body-text">Send me a DM &mdash; happy to take a look and tell you what I'd change.</div>
+      <div class="cta-pill">DM Me &nearr;</div>
+    </div>
+  </div>
+  <div class="footer">Abdul Rehman &middot; Web Developer, OneC Infinity</div>
+  <div class="index">06 / 06</div>
+</div>
+</body>
+</html>

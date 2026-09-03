@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>OneC Infinity Carousel — All Slides</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { background:#333; font-family:sans-serif; }
+  .instructions { max-width:1080px; margin:0 auto; padding:24px 32px; background:#fffbe6; border-bottom:4px solid #ffcc3f; font-size:15px; line-height:1.6; color:#222; }
+  .instructions b { color:#a15c00; }
+  .page { width:1080px; height:1350px; margin:24px auto; overflow:hidden; box-shadow:0 10px 40px rgba(0,0,0,0.4); page-break-after:always; break-after:page; background:#fff; }
+  .page iframe { width:1080px; height:1350px; border:0; display:block; }
+  @page { size:1080px 1350px; margin:0; }
+  @media print {
+    html,body { background:#fff; }
+    .instructions { display:none; }
+    .page { margin:0; box-shadow:none; page-break-after:always; break-after:page; }
+    .page:last-child { page-break-after:auto; break-after:auto; }
+  }
+</style>
+</head>
+<body>
+  <div class="instructions">
+    <b>To save as one PDF:</b> Press Ctrl+P (or Cmd+P) → Destination: <b>Save as PDF</b> → More settings → Paper size: <b>Custom</b> if available, or Letter → Margins: <b>None</b> → turn on <b>Background graphics</b> → Save. This banner and the gray spacing are hidden automatically when printing.
+  </div>
+  <div class="page"><iframe src="slide-01-cover.html"></iframe></div>
+  <div class="page"><iframe src="slide-02-colors.html"></iframe></div>
+  <div class="page"><iframe src="slide-03-fonts.html"></iframe></div>
+  <div class="page"><iframe src="slide-04-screenshots.html"></iframe></div>
+  <div class="page"><iframe src="slide-05-about.html"></iframe></div>
+  <div class="page"><iframe src="slide-06-cta.html"></iframe></div>
+</body>
+</html>

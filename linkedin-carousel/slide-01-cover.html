@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1350px; overflow:hidden; font-family:'Inter',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; background:#00081b; overflow:hidden; }
+  .cut { position:absolute; left:0; bottom:0; width:1080px; height:340px; background: linear-gradient(100deg, #ffcc3f 0%, #e8b636 100%); clip-path: polygon(0% 32%, 100% 0%, 100% 100%, 0% 100%); z-index:1; }
+  .grid-lines { position:absolute; inset:0; background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 80px); }
+  .eyebrow { position:absolute; top:56px; left:64px; color:#ffcc3f; font-family:'Inter'; font-weight:700; letter-spacing:3px; font-size:18px; text-transform:uppercase; z-index:2; }
+  .eyebrow b { color:#fff; }
+  .headline { position:absolute; top:98px; left:64px; width:960px; font-family:'Poppins'; font-weight:900; font-size:46px; color:#fff; line-height:1.15; letter-spacing:-0.5px; z-index:2; }
+
+  .shot-wrap { position:absolute; top:290px; left:50%; transform:translateX(-50%); z-index:2; width:960px; border-radius:18px; overflow:hidden; box-shadow:0 40px 90px rgba(0,0,0,0.6); border:1px solid rgba(255,255,255,0.1); background:#0c0405; }
+  .shot-bar { display:flex; align-items:center; gap:8px; padding:14px 22px; background:#0b0505; }
+  .b-dot { width:9px; height:9px; border-radius:50%; background:#3a2a2a; }
+  .b-dot.on { background:#ec1b23; }
+  .b-url { margin-left:14px; background:#040404; border:1px solid rgba(255,255,255,0.08); color:#8B8B8B; font-size:13px; padding:5px 14px; border-radius:18px; font-family:'Inter',sans-serif; }
+  .shot-img { width:960px; display:block; }
+
+  .caption-wrap { position:absolute; top:838px; left:50%; transform:translateX(-50%); z-index:2; text-align:center; width:900px; }
+  .caption { color:rgba(255,255,255,0.55); font-family:'Inter'; font-size:16px; }
+  .credit { color:#ffcc3f; font-family:'Inter'; font-weight:700; font-size:19px; margin-top:8px; }
+
+  .footer-row { position:absolute; bottom:32px; left:64px; right:64px; display:flex; justify-content:space-between; align-items:center; z-index:3; }
+  .name { color:#00081b; font-family:'Inter'; font-weight:700; font-size:22px; }
+  .swipe { color:#00081b; font-family:'Inter'; font-weight:700; font-size:22px; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="grid-lines"></div>
+  <div class="eyebrow">A Build Breakdown &nbsp;&middot;&nbsp; <b>OneC Infinity</b></div>
+  <div class="headline">Your Website Has 10 Seconds. Then They Leave.</div>
+  <div class="shot-wrap">
+    <div class="shot-bar">
+      <span class="b-dot on"></span><span class="b-dot"></span><span class="b-dot"></span>
+      <div class="b-url">onecinfinity.com</div>
+    </div>
+    <img class="shot-img" src="Capture1.JPG">
+  </div>
+  <div class="caption-wrap">
+    <div class="caption">Actual screenshot &mdash; onecinfinity.com</div>
+    <div class="credit">I designed &amp; built this site from scratch &mdash; UI, UX, and code.</div>
+  </div>
+  <div class="cut"></div>
+  <div class="footer-row">
+    <div class="name">Abdul Rehman</div>
+    <div class="swipe">Swipe &rarr;</div>
+  </div>
+</div>
+</body>
+</html>

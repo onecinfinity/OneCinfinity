@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1350px; overflow:hidden; font-family:'Inter',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; background:#00081b; }
+  .header { position:relative; z-index:2; padding:64px 72px 36px; }
+  .index { position:absolute; top:64px; right:72px; color:rgba(255,255,255,0.45); font-family:'Inter'; font-size:20px; letter-spacing:2px; }
+  .eyebrow { color:#ffcc3f; font-family:'Inter'; font-weight:700; letter-spacing:4px; font-size:20px; text-transform:uppercase; }
+  .headline { font-family:'Poppins'; font-weight:800; font-size:48px; color:#fff; margin-top:14px; }
+  .bands { position:relative; }
+  .band { position:relative; height:262px; display:flex; align-items:flex-end; padding:0 72px 26px; }
+  .band-num { position:absolute; top:20px; right:40px; font-family:'Poppins'; font-weight:900; font-size:64px; opacity:0.18; }
+  .band-name { font-family:'Plus Jakarta Sans'; font-weight:800; font-size:34px; }
+  .band-hex { font-family:'Inter'; font-weight:500; font-size:20px; margin-top:6px; opacity:0.85; letter-spacing:1px; }
+  .footer-row { position:absolute; bottom:24px; left:72px; right:72px; display:flex; justify-content:space-between; align-items:center; z-index:3; }
+  .swipe { color:#ffcc3f; font-family:'Inter'; font-weight:600; font-size:24px; }
+  .caption { color:rgba(255,255,255,0.55); font-family:'Inter'; font-size:18px; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="header">
+    <div class="eyebrow">Design System</div>
+    <div class="headline">Four Colors, No Noise</div>
+  </div>
+  <div class="index">02 / 06</div>
+  <div class="bands">
+    <div class="band" style="background:#EC1B23; color:#fff;">
+      <div class="band-num" style="color:#fff;">01</div>
+      <div>
+        <div class="band-name">Signal Red</div>
+        <div class="band-hex">#EC1B23 &mdash; primary accent, CTAs</div>
+      </div>
+    </div>
+    <div class="band" style="background:#040404; color:#fff;">
+      <div class="band-num" style="color:#fff;">02</div>
+      <div>
+        <div class="band-name">Base Black</div>
+        <div class="band-hex">#040404 &mdash; backgrounds, panels</div>
+      </div>
+    </div>
+    <div class="band" style="background:#FFFFFF; color:#040404;">
+      <div class="band-num" style="color:#040404;">03</div>
+      <div>
+        <div class="band-name">Clean White</div>
+        <div class="band-hex">#FFFFFF &mdash; contrast, whitespace</div>
+      </div>
+    </div>
+    <div class="band" style="background:#EFBC2A; color:#040404;">
+      <div class="band-num" style="color:#040404;">04</div>
+      <div>
+        <div class="band-name">Highlight Gold</div>
+        <div class="band-hex">#EFBC2A &mdash; ratings, small accents</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-row">
+    <div class="caption">One accent, two neutrals, one highlight.</div>
+    <div class="swipe">Swipe &rarr;</div>
+  </div>
+</div>
+</body>
+</html>
