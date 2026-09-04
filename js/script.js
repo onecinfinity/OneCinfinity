@@ -194,7 +194,6 @@ Promise.all([
     $("#header").html(headerHTML);
     $("#footer").html(footerHTML);
     $("#sidebar").html(sidebarHTML);
-    $("#edit-sidebar").html(sidebarHTML);
     $("#search-form-container").html(searchHTML);
   })
     .then(() => {
@@ -202,7 +201,6 @@ Promise.all([
         initBannerInteractive();
     initNavLink();
     initSidebar();
-    initEditSidebar();
     initSidebarDropdown();
     initCounter();
     initThemeSwitch();
@@ -421,27 +419,6 @@ function initSidebar() {
       }, 200);
     });
   }
-
-function initEditSidebar() {
-    const $contentBtn = $('.content-edit');
-    const $closeBtn = $('.close-btn-second');
-    const $overlay = $('.content-overlay');
-    const $sidebar = $('.content-edit-sidebar');
-
-    $contentBtn.click(function() {
-        $sidebar.addClass('active');
-        setTimeout(() => {
-            $overlay.addClass('active');    
-        }, 200);
-    });
-
-    $closeBtn.click(function() {
-        $sidebar.removeClass('active');
-        setTimeout(() => {
-            $overlay.removeClass('active');
-        }, 200);
-    });
-}
 
 function initSidebarDropdown() {
     const $dropdownButtons = $(".sidebar-dropdown-btn");

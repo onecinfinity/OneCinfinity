@@ -64,12 +64,6 @@
         <!-- Section Navbar -->
         <!--#include virtual="/header.html" -->
     </header>
-
-    <!-- Section Content Edit -->
-    <aside>
-        <div id="edit-sidebar"></div>
-    </aside>
-
     <!-- Section Search -->
     <div id="search-form-container"></div>
 
@@ -82,7 +76,7 @@
     <main>
         <!-- Section Banner -->
         <div class="section-banner">
-            <div class="banner-video-container keep-dark animate-box animated animate__animated" data-animate="animate__fadeInUp">
+            <div class="banner-video-container keep-dark">
                 <video
                     id="banner-video-background"
                     class="banner-bg-video"
@@ -97,7 +91,7 @@
                 </video>
                 <div class="hero-container position-relative">
                     <div class="d-flex flex-column gspace-2">
-                        <h1 class="title-heading-banner animate-box animated animate__animated" data-animate="animate__fadeInLeft">Amplify Your Brand with Cutting-Edge Digital Marketing</h1>
+                        <h1 class="title-heading-banner">Amplify Your Brand with Cutting-Edge Digital Marketing</h1>
                         <div class="banner-heading">
                             <!-- <div class="banner-video-content order-xl-1 order-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column flex-xl-row text-xl-start text-center align-items-center gspace-5">
@@ -125,7 +119,7 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <div class="banner-content banner-content-wide order-xl-2 order-1  animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                            <div class="banner-content banner-content-wide order-xl-2 order-1">
                                 <p>OneCinfinity helps startups and growing brands grow online through SEO, social media marketing, PPC advertising, content marketing, branding strategy, and web development. We bring hands-on collaboration, fresh ideas, and consistent execution to every project.</p>
                                 <div class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
                                     <a href="service/" class="btn btn-accent">
@@ -921,11 +915,16 @@
 </script>
 
 <!-- Google Tag Manager -->
-<script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>
+function loadGTM(){if(window.__gtmLoaded)return;window.__gtmLoaded=true;
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5PTW6G3L');</script>
+})(window,document,'script','dataLayer','GTM-5PTW6G3L');}
+['scroll','mousemove','touchstart','keydown'].forEach(function(e){window.addEventListener(e,loadGTM,{passive:true,once:true});});
+setTimeout(loadGTM,3500);
+</script>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PTW6G3L"

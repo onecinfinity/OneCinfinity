@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,11 +40,16 @@
 <link rel="stylesheet" href="css/style.css">    <link rel="icon" href="image/OneCinfinity icon.png">
 <meta name="google-site-verification" content="4HZq6s1y_w5DzG7Q5VQUH3ftWuic_To5dThvjVbjnbo" />
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>
+function loadGTM(){if(window.__gtmLoaded)return;window.__gtmLoaded=true;
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5PTW6G3L');</script>
+})(window,document,'script','dataLayer','GTM-5PTW6G3L');}
+['scroll','mousemove','touchstart','keydown'].forEach(function(e){window.addEventListener(e,loadGTM,{passive:true,once:true});});
+setTimeout(loadGTM,3500);
+</script>
 <!-- End Google Tag Manager --><script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -132,12 +137,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Section Navbar -->
         <!--#include virtual="/header.html" -->
     </header>
-
-    <!-- Section Content Edit -->
-    <aside>
-        <div id="edit-sidebar"></div>
-    </aside>
-
     <!-- Section Search -->
     <aside>
         <div id="search-form-container"></div>
@@ -155,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="banner-layout-wrapper">
                 <div class="banner-layout">
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
-                        <h1 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Our Services</h1>
+                        <h1 class="title-heading">Our Services</h1>
                         <nav class="breadcrumb">
                             <a href="./" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
